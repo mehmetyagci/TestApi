@@ -105,9 +105,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\w191003\\source\\repos\\TestApi\\TestApi\\TestApi.csproj",
-      "projectName": "TestApi",
-      "projectPath": "C:\\Users\\w191003\\source\\repos\\TestApi\\TestApi\\TestApi.csproj",
+      "projectUniqueName": "C:\\Users\\w191003\\source\\repos\\TestApi\\TestApi\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "C:\\Users\\w191003\\source\\repos\\TestApi\\TestApi\\Api.csproj",
       "packagesPath": "C:\\Users\\w191003\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\w191003\\source\\repos\\TestApi\\TestApi\\obj\\",
       "projectStyle": "PackageReference",
