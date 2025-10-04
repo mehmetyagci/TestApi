@@ -38,3 +38,4 @@ C:\Users\w191003\source\repos\TestApi\Api\obj\Debug\netcoreapp3.1\Api.RazorTarge
 C:\Users\w191003\source\repos\TestApi\Api\obj\Debug\netcoreapp3.1\Api.dll
 C:\Users\w191003\source\repos\TestApi\Api\obj\Debug\netcoreapp3.1\Api.pdb
 C:\Users\w191003\source\repos\TestApi\Api\obj\Debug\netcoreapp3.1\Api.genruntimeconfig.cache
+C:\Users\w191003\source\repos\TestApi\Api\obj\Debug\netcoreapp3.1\Api.csproj.AssemblyReference.cache
