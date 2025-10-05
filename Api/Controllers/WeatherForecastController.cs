@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TestApi.Controllers;
+namespace TestApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -31,9 +31,9 @@ namespace TestApi.Controllers;
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = "$" + Summaries[rng.Next(Summaries.Length)] + "$"
+                Summary = "|" + Summaries[rng.Next(Summaries.Length)] + "|"
             }) // asdasd
             .ToArray();
         }
     }
-}
+} // asd
