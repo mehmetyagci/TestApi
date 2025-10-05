@@ -1,25 +1,26 @@
-**/.classpath
-**/.dockerignore
-**/.env
-**/.git
-**/.gitignore
-**/.project
-**/.settings
-**/.toolstarget
-**/.vs
+# Build artifacts
+bin/
+obj/
+
+# IDE / editor files
+*.user
+*.vs
 **/.vscode
-**/*.*proj.user
-**/*.dbmdl
-**/*.jfm
-**/azds.yaml
-**/bin
-**/charts
+**/.idea
+
+# Git
+.git
+.gitignore
+
+# Docker related
 **/docker-compose*
 **/Dockerfile*
-**/node_modules
-**/npm-debug.log
-**/obj
-**/secrets.dev.yaml
-**/values.dev.yaml
-LICENSE
+
+# Misc
+*.dbmdl
+*.jfm
+*.env
+secrets.dev.yaml
+values.dev.yaml
 README.md
+LICENSE
