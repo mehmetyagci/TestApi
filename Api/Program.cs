@@ -20,7 +20,7 @@ namespace TestApi
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseUrls("http://*.1000");
+                    webBuilder.UseUrls("http://0.0.0.0:1000");
                     webBuilder.UseStartup<Startup>();
                 });
     }
