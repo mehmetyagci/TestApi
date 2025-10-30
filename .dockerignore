@@ -1,0 +1,26 @@
+# Build artifacts
+bin/
+obj/
+
+# IDE / editor files
+*.user
+*.vs
+**/.vscode
+**/.idea
+
+# Git
+.git
+.gitignore
+
+# Docker related
+**/docker-compose*
+**/Dockerfile*
+
+# Misc
+*.dbmdl
+*.jfm
+*.env
+secrets.dev.yaml
+values.dev.yaml
+README.md
+LICENSE
