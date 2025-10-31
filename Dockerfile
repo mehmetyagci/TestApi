@@ -12,7 +12,7 @@ RUN dotnet restore
 COPY . ./
 
 # Release build ve publish
-RUN dotnet publish -c Release -o out --no-restore
+RUN dotnet publish "Api.csproj" -c Release -o out --no-restore
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
