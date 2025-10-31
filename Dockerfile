@@ -22,4 +22,4 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 
 # Uygulamayı başlat
-ENTRYPOINT ["dotnet", "Api.dll"]
+ENTRYPOINT ["dotnet", "Api.dll", "--urls", "http://0.0.0.0:80"]
